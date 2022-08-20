@@ -1,5 +1,9 @@
 # Payload camelCase relationship issues reproduction
 
+1. Fill `.env` vars
+2. `yarn install`
+3. `yarn dev`
+
 ### 1. When using collection with two or more words in camelCase, eg. `myExamples`, one cannot build a relationship field.
 
 See files `src/collections/MyExamples.ts` and `src/collections/Users.ts`. The error is:
